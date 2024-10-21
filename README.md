@@ -1,3 +1,5 @@
+# como foi encontrado o knn: no gpt4o : eu quero um codigo usando KNN com a biblioteca sk-learn para treinar esse modelo de machine learning baseado nesse dataset para reconhecer padrões de idade e faixa etária. Onde idade a a feature e faixa etária o target.
+
 
 # Guia de Uso do GitHub com VSCode e Streamlit
 
@@ -117,3 +119,30 @@ Esse é o guia básico para trabalhar com GitHub, VSCode e Streamlit. Certifique
 
 git atualizado para main
 git atualizado formatacao
+
+# poetry
+estou optando por criar um venv por projeto e vai ficar instalado no projeto
+poetry config virtualenvs.in-project true
+isso só precisa ser feito uma vez.
+para iniciar o poetry: 
+
+poetry init
+
+# para adicionar:
+
+poetry add streamlit
+
+# para pesquisar versao:
+
+poetry search streamlit
+
+pip install scikit-learning
+pip install pandas
+pip install streamlit
+
+positioning coding verificar isso no canal Sandeco
+
+# Para rodar o codigo do etaria_web.py, no terminal, digite:
+streamlit run etaria_web.py
+Vai abrir uma página no seu navegador e pode digitar a idade.
+A resposta vem do treinamento.
