@@ -112,3 +112,8 @@ Para acessar sua conta do GitHub:
 ---
 
 Esse é o guia básico para trabalhar com GitHub, VSCode e Streamlit. Certifique-se de seguir as melhores práticas para versionamento de código e uso do Git.
+
+
+
+git atualizado para main
+git atualizado formatacao
