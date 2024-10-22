@@ -146,3 +146,34 @@ positioning coding verificar isso no canal Sandeco
 streamlit run etaria_web.py
 Vai abrir uma página no seu navegador e pode digitar a idade.
 A resposta vem do treinamento.
+
+Para fazer a publicacao no streamlit, o arquivo etaria_web.py
+já chama o: streamlit as st
+streamlit.title("titulo")
+st.subheader("subtitulo")
+
+
+# como faz o deploy?
+Acesse a Plataforma do Streamlit:
+
+1. Vá até o site Streamlit Community Cloud e faça login com sua conta do GitHub.
+Conecte o Repositório do GitHub:
+
+2. Após o login, selecione a opção "Deploy an app" ou similar, conforme a primeira imagem que você forneceu.
+Escolha a opção "Yup, I have an app", que permite selecionar um repositório já existente no GitHub.
+Selecione seu Repositório:
+
+3. Na página seguinte, o Streamlit irá solicitar que você escolha o repositório GitHub. Selecione o seu repositório faixa_etaria da lista ou cole o link do repositório público.
+https://github.com/travenupai/faixa_etaria
+Branch: main
+Main file path
+Escolha o Arquivo Principal:
+
+4. O Streamlit pedirá que você indique o arquivo Python que contém o código principal da sua aplicação. No seu caso, parece ser o arquivo etaria_web.py ou train_faixa_etaria.py, dependendo de como você estruturou a lógica da aplicação.
+Configurações Adicionais (opcional):
+
+5. Verifique se o arquivo requirements.txt está presente no repositório (o que parece estar correto no seu caso), pois o Streamlit utilizará este arquivo para instalar todas as dependências necessárias.
+Realizar o Deploy:
+
+6. Clique em "Deploy" e aguarde o Streamlit construir e lançar sua aplicação.
+Após o deploy, o Streamlit fornecerá uma URL pública para acessar sua aplicação.
