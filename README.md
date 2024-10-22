@@ -177,3 +177,19 @@ Realizar o Deploy:
 
 6. Clique em "Deploy" e aguarde o Streamlit construir e lançar sua aplicação.
 Após o deploy, o Streamlit fornecerá uma URL pública para acessar sua aplicação.
+
+# Para reiniciar o deploy da sua aplicação no Streamlit:
+
+Após atualizar o repositório no GitHub, siga estes passos:
+
+1. Vá até o Streamlit Community Cloud
+Acesse o Streamlit e faça login com sua conta GitHub, se ainda não estiver logado.
+
+2. Acesse a Área de Gerenciamento de Aplicações
+No painel do Streamlit Community Cloud, vá para a seção "Your apps" (Suas aplicações), onde você verá a lista de aplicações que você já fez deploy.
+Encontre sua aplicação correspondente ao repositório que foi atualizado.
+
+3. Reinicie o Deploy
+Clique nos "três pontos" ou no botão de opções ao lado da sua aplicação e escolha a opção "Reboot" ou "Rerun" (reiniciar ou rodar novamente). Isso irá fazer o Streamlit verificar as atualizações do repositório e realizar o novo deploy.
+
+Se essa opção não aparecer ou o deploy não reiniciar automaticamente, tente "Manage App" (Gerenciar aplicação) e, em seguida, clique em "Redeploy" (Reimplantar).
